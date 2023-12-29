@@ -19,7 +19,7 @@ We can also use another guideline, but it has to be in a text file. Use the foll
 ## How does it work
 The pipeline uses the OpenAI chat-gpt-4 model to answer the questions given in the task.
 
-### Reformat medical record
+### Reformat medical record
 The first step is to run the medical records through a pdf reader in python, this output a long string with all the text from the pdf.
 Since this pdf isn't formatted, I ask the chat bot to format the medical records and divide into paragraphs we appropiate headings.
 At this point I also tell the chat bot that the string has artifacts and to fill out any words that seem to have missing letters. I also 
@@ -30,7 +30,7 @@ Here I ask the chatbot to give the requested CPT code for the procedure, ignorin
 It is important to note that given a database of CPT codes we could easily check each token and return only the CPT codes in our database.
 We could then make sure the context of the cpt code was the one requested. This would avoid using an LLM.
 
-### Check for previous conservative treatment
+### Check for previous conservative treatment
 This section was tricky. Here I asked the chat bot whether there was any conservative treatments that improved the condition. I ask this question 
 on every paragraph, the LLM seemed to find it tricky to find previous treatment in medical record 1 under notes. I believe that it gets confused
 when it sees previous medical histories under different headings. As a result by sending each paragraph, I check in each paragraph for previous treatments.
