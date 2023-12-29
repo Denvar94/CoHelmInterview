@@ -9,9 +9,11 @@ Next make sure that the `$OPENAI_API_KEY` has the access token needed to use the
 Now place any medical records in the data folder, `src/data/medical_records.pdf`
 
 To run the AI Pipeline, enter the following Docker command
+
 `docker run -e OPENAI_API_KEY=$OPENAI_API_KEY --name [NAME_OF_CONTAINER] [IMAGE_NAME] -m src/data/[medical-record-filename]`
 
 We can also use another guideline, but it has to be in a text file. Use the following command to run your own guideline
+
 `docker run -e OPENAI_API_KEY=$OPENAI_API_KEY --name [NAME_OF_CONTAINER] [IMAGE_NAME] -m src/data/[medical-record-filename] -g [src/data/guidline_filename]`
 
 ## How does it work
