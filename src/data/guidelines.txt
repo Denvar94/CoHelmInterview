@@ -1,0 +1,15 @@
+[45378] Colonoscopy, flexible; diagnostic
+Colorectal cancer screening, as indicated by 1 or more of the following:
+    Patient has average-risk or higher, as indicated by ALL of the following:
+        • Age 45 years or older
+        • No colonoscopy in past 10 years
+    High risk family history, as indicated by 1 or more of the following:
+        • Colorectal cancer diagnosed in one or more first-degree relatives of any age and ALL of the following:
+            • Age 40 years or older
+            • Symptomatic (for example, abdominal pain, iron deficiency anemia, rectal bleeding)
+        • Family member with colonic adenomatous polyposis of unknown etiology
+    Pediatric patient with relevant symptoms as indicated by 1 or more of the following:
+        • Abdominal pain
+        • Iron deficiency anemia
+        • Rectal bleeding
+        • Telangiectasia
