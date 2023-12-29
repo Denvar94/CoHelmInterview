@@ -36,7 +36,7 @@ on every paragraph, the LLM seemed to find it tricky to find previous treatment 
 when it sees previous medical histories under different headings. As a result by sending each paragraph, I check in each paragraph for previous treatments.
 Now when the LLM sees just the notes, it is able to answer correctly that the treatment had been recieved and was succesful.
 
-### Guidlines
+### Guidelines
 The trickies part was to convert the guidlines into insutructions for the LLM. Since the task was so that this approach could be generalized,
 it made it incredibly tricky.
 
