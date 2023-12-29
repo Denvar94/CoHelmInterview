@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
     # Add arguments
     parser.add_argument('-m',  '--medical_record', required=True, help='The first filename is for medical record')
-    parser.add_argument('-g', '--guidelines', default='data/guidelines.txt', help='The second filename is to pass the guidelines')
+    parser.add_argument('-g', '--guidelines', default='src/data/guidelines.txt', help='The second filename is to pass the guidelines')
 
     # Parse arguments
     args = parser.parse_args()
